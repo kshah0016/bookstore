@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Book Store</title>
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+
+		.column {
+			float: left;
+			width: 33.33%;
+			padding: 5px;
+		}
+
+
+		.row::after {
+			content: "";
+			clear: both;
+			display: table;
+		}
+	</style>
+</head>
+
+<body>
+	<center>
+		<h1>ONLINE BOOKSTORE</h1>
+	</center><br>
+
+	<div class="row">
+		<div class="column">
+			<img src="book1.jpeg" style="width:100%">
+		</div>
+		<div class="column">
+			<img src="book2.jpeg" style="width:100%">
+		</div>
+		<div class="column">
+			<img src="book3.jpg" style="width:100%">
+		</div>
+
+		<div class="column">
+			<img src="book5.jpg" style="width:100%">
+		</div>
+		<div class="column">
+			<img src="book4.jpg" style="width:100%">
+		</div>
+		<div class="column">
+			<img src="book6.png" style="width:100%">
+		</div>
+
+	</div>
+
+
+
+	<center>
+		<h2><button onclick="document.location='store.php'" height='90' width='100' >Click here for order</button></h2>
+	</center>
+</body>
+
+</html>
